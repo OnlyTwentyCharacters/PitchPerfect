@@ -13,8 +13,8 @@
 		8BA04B361D0CA318000A550D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA04B341D0CA318000A550D /* LaunchScreen.storyboard */; };
 		8BA04B411D0CA31A000A550D /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA04B401D0CA31A000A550D /* PitchPerfectTests.swift */; };
 		8BA04B4C1D0CA31A000A550D /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA04B4B1D0CA31A000A550D /* PitchPerfectUITests.swift */; };
-		8BA04B5A1D0CABF0000A550D /* record_200.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA04B591D0CABF0000A550D /* record_200.png */; };
-		8BCD8E1F1D0CDEB5004F9AD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8E1E1D0CDEB5004F9AD7 /* ViewController.swift */; };
+		8BC892671D123EC2003F2DA4 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC892661D123EC2003F2DA4 /* RecordSoundsViewController.swift */; };
+		8BC892691D12561A003F2DA4 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC892681D12561A003F2DA4 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		8BA04B471D0CA31A000A550D /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA04B4B1D0CA31A000A550D /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		8BA04B4D1D0CA31A000A550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BA04B591D0CABF0000A550D /* record_200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_200.png; path = ../../../Downloads/RecordButtonImages/record_200.png; sourceTree = "<group>"; };
-		8BCD8E1E1D0CDEB5004F9AD7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BC892661D123EC2003F2DA4 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		8BC892681D12561A003F2DA4 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,10 @@
 		8BA04B2A1D0CA317000A550D /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				8BCD8E1E1D0CDEB5004F9AD7 /* ViewController.swift */,
+				8BC892661D123EC2003F2DA4 /* RecordSoundsViewController.swift */,
+				8BC892681D12561A003F2DA4 /* PlaySoundsViewController.swift */,
 				8BA04B2B1D0CA317000A550D /* AppDelegate.swift */,
 				8BA04B2F1D0CA318000A550D /* Main.storyboard */,
-				8BA04B591D0CABF0000A550D /* record_200.png */,
 				8BA04B321D0CA318000A550D /* Assets.xcassets */,
 				8BA04B341D0CA318000A550D /* LaunchScreen.storyboard */,
 				8BA04B371D0CA319000A550D /* Info.plist */,
@@ -233,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA04B361D0CA318000A550D /* LaunchScreen.storyboard in Resources */,
-				8BA04B5A1D0CABF0000A550D /* record_200.png in Resources */,
 				8BA04B331D0CA318000A550D /* Assets.xcassets in Resources */,
 				8BA04B311D0CA318000A550D /* Main.storyboard in Resources */,
 			);
@@ -260,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCD8E1F1D0CDEB5004F9AD7 /* ViewController.swift in Sources */,
+				8BC892671D123EC2003F2DA4 /* RecordSoundsViewController.swift in Sources */,
+				8BC892691D12561A003F2DA4 /* PlaySoundsViewController.swift in Sources */,
 				8BA04B2C1D0CA317000A550D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
