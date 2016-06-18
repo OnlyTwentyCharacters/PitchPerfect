@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Record Sounds View Controller-->
+        <!--Record-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="PitchPerfect" sceneMemberID="viewController">
@@ -49,12 +49,12 @@
                             <constraint firstItem="bCG-pk-ktW" firstAttribute="centerX" secondItem="VyW-QD-YoL" secondAttribute="centerX" id="lJl-e5-Ufz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="FON-lG-IJY"/>
+                    <navigationItem key="navigationItem" title="Record" id="FON-lG-IJY"/>
                     <connections>
                         <outlet property="recordButton" destination="iHV-2a-z6x" id="zj3-MS-K5d"/>
                         <outlet property="recordingLabel" destination="VyW-QD-YoL" id="Yjl-2j-Klg"/>
                         <outlet property="stopRecordingButton" destination="bCG-pk-ktW" id="I7U-7L-554"/>
-                        <segue destination="Lji-ng-Vm1" kind="show" identifier="stopRecording" id="yrh-0u-jV8"/>
+                        <segue destination="Lji-ng-Vm1" kind="show" identifier="stopRecording" id="fDI-yA-T97"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -160,8 +160,7 @@
                         <outlet property="chipmunkButton" destination="Vfq-oz-gXS" id="dwe-fJ-brb"/>
                         <outlet property="echoButton" destination="App-vO-qxt" id="FeO-Z6-ZF5"/>
                         <outlet property="rabbitButton" destination="KPu-Pg-fzv" id="ACa-xz-Tnw"/>
-                        <outlet property="reverbButton" destination="6jV-di-lnh" id="fmc-ex-Nq9"/>
-                        <outlet property="reverdButton" destination="6jV-di-lnh" id="BSo-16-h8q"/>
+                        <outlet property="reverbButton" destination="6jV-di-lnh" id="IVi-17-C8g"/>
                         <outlet property="snailButton" destination="DOV-BN-xku" id="FR5-u5-rc4"/>
                         <outlet property="stopButton" destination="LGn-CK-2Vq" id="1e6-ks-8sR"/>
                         <outlet property="vaderButton" destination="zqH-mn-Vlv" id="eXb-UZ-N3m"/>
